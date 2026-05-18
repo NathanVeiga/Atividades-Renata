@@ -1,0 +1,36 @@
+#listaIngredientes {
+    color: orange;
+}
+
+.blue {
+    color: blue;
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section > p {
+    font-size: 28px;
+}
+
+img {
+    width: 25%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#preparo {
+    border-style: dashed;
+    border-color: orange;
+    border-width: 1px;
+    padding: 12px;
+    margin: 5%;
+}

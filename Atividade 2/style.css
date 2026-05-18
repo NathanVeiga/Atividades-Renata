@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  background-color: #121214;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  color: #a78bfa;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+#easy {
+  color: #4ade80;
+  border-style: solid;
+  border-color: #27272a;   
+  border-width: 1px;    
+  padding: 24px;
+  margin: 24px auto;
+}
+
+#hard {
+  color: #f87171;
+  border-style: solid;
+  border-color: #27272a;
+  border-width: 1px;
+  padding: 24px;
+  margin: 24px auto;
+}
+
+.info {
+  color: #fbbf24;
+}
+
+.lista {
+  list-style-type: none; /* Tira os ícones do lado esquerdo da lista */
+  list-style-position: inside;
+}
