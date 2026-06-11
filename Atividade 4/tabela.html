@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+        background-color: gray;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        td {
+            color: red;
+            background-color: lightgray;
+            text-align: center;
+            padding: 5px;
+        }
+        th {
+            background-color: yellow;
+            text-align: center;
+            padding: 10px;
+        }
+        caption {
+            margin: 5px;
+        }
+
+        tr:hover td, tr:hover th {
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>Rotina Semanal</caption>
+        <tr>
+            <th>   </th>
+            <th>DOM</th>
+            <th>SEG</th>
+            <th>TER</th>
+            <th>QUA</th>
+            <th>QUI</th>
+            <th>SEX</th>
+            <th>SAB</th>
+        </tr>
+        <tr>
+            <th>MANHÃ</th>
+            <td rowspan="3">Descanso</td>
+            <td colspan="5">Trabalho</td>
+            <td rowspan="3">Descanso</td>
+        </tr>
+        <tr>
+            <th>TARDE</th>
+            <td colspan="5">Trabalho</td>
+        </tr>
+        <tr>
+            <th>NOITE</th>
+            <td colspan="5">Trabalho</td>
+        </tr>
+    </table>
+</body>
+</html>

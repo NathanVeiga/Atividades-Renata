@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite o nome do produto:");
+        
+        let preco = parseFloat(prompt("Digite o preço do produto:"));
+        
+        let quantidade = parseInt(prompt("Digite a quantidade do produto:"));
+        
+        function apresentarDados(nome, preco, quantidade) {
+            alert(`O nome do seu produto é: ${nome}. \nO preço do seu produto é: R$ ${preco.toFixed(2)}. \nA quantidade do seu produto é: ${quantidade}.`);
+        }
+
+        apresentarDados(nome, preco, quantidade);
+    </script>
+</body>
+</html>
